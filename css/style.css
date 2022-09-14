@@ -1,0 +1,424 @@
+/* Header: #1E172F
+Letras menú atenuado: #7C7785
+Botón Download: Degradado de #8640D5 a #047ED5
+Fondo Product Page: #2E2550
+Fuente Lila: #F41486
+Fondo Funcionalidades: #F1F2F7
+Fondo Planes y Precios: #1E172F
+Botón Subscribe Now: Degradado de #EB66AB a #F41486 (editado) */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap'); *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    background: #1E172F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+   margin: 15px;
+   text-decoration: none;
+   color: #7C7785
+}
+.botonnav{
+    padding: 10px 15px;
+    background:linear-gradient( to right, #8640D5, #047ED5);
+    border-radius: 5px;
+    color: white;
+    border-bottom:0 ;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    background:#2E2550 ;
+    width: 50%;
+    justify-content: center;
+    color:white;
+    height: auto;
+    
+}
+.producto2{
+    width: 75%;
+    margin: auto;
+}
+.producto2 h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.producto2 p{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.botones{
+    border: 1px solid #7C7785;
+    border-radius: 3px;
+    width: auto;
+    padding: 5px;
+    width: 245px;
+}
+.botones1{
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #F41486;
+    padding: 10px 20px;
+    
+}
+.botones2{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background:#2E2550 ;
+    color: white;
+    border-radius: 5px;
+}
+.phone{
+    background-image: url(../images/otoño.png);
+    width: 50%;
+    height: auto;
+    background-position: center;
+    background-size:cover;
+}
+.phone img{
+    height: 80%;
+    padding: 30px 80px;
+}
+.section2{
+    background-color:#F1F2F7 ;
+    display: flex;
+    flex-direction: column; 
+    padding: 80px 150px;
+    justify-content: space-around;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.fun{
+    width: 50%;
+    
+}
+.fun img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    
+}
+.contenidofun{
+    width: 20%;
+    padding:20px ;
+}
+.titulo {
+    color: #F41486;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+.contenidofun i{
+    color: #F41486;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+   
+}
+.contenidofun h2{
+    color:#F41486;
+    margin-bottom: 30px;
+}
+.contenidofun h3{
+    color: #F41486;
+    margin: 25px 0;
+}
+.contenidofun p{
+    color: #7C7785;
+    margin-left: 5px;
+}
+.section3{
+    background:#1E172F ;
+    height: auto;
+
+}
+
+.sec{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+}
+.sec h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.sec p{
+    color:#7C7785;
+
+}
+.cards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+.cards{
+    background: white;
+    justify-content: center;
+    margin: 25px;
+    border-radius: 10px;
+    width: 25%;
+}
+.cardsImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    background: #eeeeee;
+    padding: 20px;
+}
+.precio h3{
+    font-size: 40px;
+}
+.precio h4{
+    color: #49464e;
+    font-size: 15px;
+    font-weight: 500px;
+  
+}
+.cards p{
+    color: #49464e;
+}
+.listas{
+    display: flex;
+    flex-direction: column;
+    color: #49464e;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.listas i{
+    margin: 10px;
+   
+    
+}
+.lite{
+    color: #F41486;
+}
+.p{
+    padding: 30px;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeeee;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boton button{
+    padding: 10px;
+   
+    background: linear-gradient( to right, #EB66AB , #F41486);
+    color:white;
+    border: 1px white;
+    border-radius: 5px;
+}
+.boton1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeeee;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boton1 button{
+    padding: 15px;
+   
+    background:#2E2550;
+    color:white;
+    border: 1px white;
+    border-radius: 5px;
+}
+footer{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+}
+.l{
+    color: #F41486;
+}
+.iconos i{
+    margin: 5px;
+}
+@media screen and (max-width:600px){
+    header{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        margin-bottom: 10px;
+    }
+    
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .producto{
+        width: auto;
+        padding: 30px;
+    }
+    .producto h1{
+        font-size: 40px;
+    }
+    .producto p{
+        font-size: 20px;
+    }
+    .phone{
+        width: 100%;
+    }
+    .sec p{
+        font-size: 13px;
+    }
+    .phone img{
+        width: 30%;
+        height: 70vh;
+    }
+    h2{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .titulo{
+        padding: 0;
+    }
+    .principal{
+        width: 100%;
+        
+    }
+    .section2{
+       width: 100%;
+       padding: 0;
+
+    }
+    .principal{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .contenidofun{
+         width: 100%;
+    }
+    .contenidofun p{
+        font-size: 15px;
+    }
+    .fun img{
+        width: 100%;
+    }
+    .cards1{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .section3{
+        width: 100%;
+
+    }
+    .cards{
+        width: 80%;
+        
+    }
+    .copy p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1280px){
+    .phone img {
+        width: 40%;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .producto h1{
+        font-size: 45px;
+    }
+    .producto p {
+        font-size: 13px
+    } 
+    .producto{
+        padding: 20px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    .section2{
+        padding: 0;
+    }
+    .contenidofun{
+        width: 30%;
+    }
+    .contenidofun h2 {
+        font-size: 20px;
+    }
+    .fun img {
+        width: 80%;
+    }
+    .principal {
+        width: 100%;
+    }
+    .cards1 {
+        padding: 40px;
+    }
+    .cards {
+        margin: 10px;
+        width: 80%;
+        
+    }
+    
+    .precio h3 {
+        font-size: 30px;
+    }
+    .precio h4 {
+        font-size: 10px;
+        
+    }
+    .cards p {
+        font-size: 14px;
+    }
+    .sec {
+        width: 60%;
+    }
+    .precio h3{
+        font-size: 18px;
+    }
+    .p {
+        font-size: 15px;
+    }
+}
+
+
+
